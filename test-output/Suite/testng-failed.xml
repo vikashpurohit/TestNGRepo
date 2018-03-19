@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ChromeTestCases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="crossbrowser.VerifyTitle">
+        <methods>
+          <include name="verifyPageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossbrowser.VerifyTitle -->
+    </classes>
+  </test> <!-- ChromeTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

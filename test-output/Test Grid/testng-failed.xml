@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Test Grid]">
+  <test name="Test Node1(failed)">
+    <classes>
+      <class name="grid.Node1">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- grid.Node1 -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+</suite> <!-- Failed suite [Test Grid] -->

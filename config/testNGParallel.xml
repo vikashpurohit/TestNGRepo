@@ -1,0 +1,23 @@
+<!--  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="tests">
+	<test name="Test Dependency">
+		<classes>
+			<class name="com.testNG.test.TestDependencyUsingFacebook" />
+		</classes>
+	</test>
+	<test name="Test Assertion">
+		<classes>
+			<class name="com.testNG.test.TestNGAssertion" />
+		</classes>
+	</test>
+</suite>  -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="classes">
+	<test name="Test Dependency">
+		<classes>
+			<class name="com.testNG.test.TestDependencyUsingFacebook" />
+			<class name="com.testNG.test.TestNGAssertion" />
+		</classes>
+	</test>
+</suite>
